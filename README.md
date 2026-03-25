@@ -105,20 +105,24 @@ Raw Data → Cleaning → Analysis → Integration → Outputs → Reports
 
 ## 📂 Project Structure
 
+```bash
 data/
-├── raw/
-├── processed/   (excluded due to size)
+  ├── raw/
+  ├── processed/        # (excluded due to size)
 
 outputs/
-├── tables/
-├── figures/
+  ├── tables/
+  ├── figures/
 
 src/
-├── load_data.py
-├── clean_data.py
-├── analyse_*.py
-├── integrated_analysis.py
-├── report_generator.py
+  ├── load_data.py
+  ├── clean_data.py
+  ├── analyse_enrolment.py
+  ├── analyse_biometric.py
+  ├── analyse_demographic.py
+  ├── integrated_analysis.py
+  ├── report_generator.py
+```
 
 ---
 
